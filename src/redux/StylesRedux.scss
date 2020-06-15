@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;700&display=swap');
+
+body{font-family: 'Heebo', sans-serif; font-size: 300;}
+p{line-height: 24px;}
+img {
+    width: 100%;
+    display: block;
+}
+header{position: relative;}
+#productos   {   
+    padding: 80px 0 0 0;
+    display: grid; gap: 20px; width: 60%; margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    li{text-align: center;
+        h3{font-size: 20px; padding: 6px 0;}
+        *{margin-bottom: 14px;}
+        background: #f1f1f1;
+        p{
+            background-color: #d3001c; 
+            color: white;
+            padding: 10px 22px;
+            text-align: center;
+            display: inline-block;
+        }
+    }
+
+    button {
+        background-color: #4caf50; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px; cursor: pointer;
+    }
+}
+
+
+#miTabla {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #miTabla td, #miTabla th {
+    border: 1px solid #ddd;
+    padding: 8px; overflow: hidden; height: 1px;
+    svg{ cursor: pointer;}
+  }
+  
+  #miTabla tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #miTabla tr:hover {background-color: #bd0000;}
+  
+  #miTabla th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white; font-weight: 700;
+    
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    #productos{
+      width: 80%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #productos{
+      width: 90%;grid-template-columns: repeat(2, 1fr);
+    }
+  }

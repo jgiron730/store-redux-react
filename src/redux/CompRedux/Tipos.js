@@ -1,0 +1,5 @@
+export const SUMAR ='SUMAR'
+export const RESTAR ='RESTAR'
+export const AGREGAR ='AGREGAR'
+export const BORRAR ='BORRAR'
+export const ITEMDELETE ='ITEMDELETE'

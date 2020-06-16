@@ -1,4 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Store with React-Redux
+
+This site is using:
+- Framermotion
+- React router
+- style-components
+- React redux
+
+Check out the live demo:
+ [https://jgiron730.github.io/store-redux-react/#/](https://jgiron730.github.io/store-redux-react/#/)
 
 ## Available Scripts
 
